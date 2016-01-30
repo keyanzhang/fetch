@@ -1,7 +1,7 @@
 (function(self) {
   'use strict';
 
-  if (self.fetch) {
+  if (self.fetch && self.fetch.polyfill) {
     return
   }
 
