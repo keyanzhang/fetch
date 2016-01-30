@@ -1,3 +1,20 @@
+# fetch-xhr
+
+This library forces the polyfill and ensures `fetch` uses `XMLHttpRequest` underneath so that `fetch` requests become trackable.
+
+## Usage
+
+```
+$ npm install --save fetch-xhr
+```
+
+Then require it at the top of the entry point to your application.
+``` js
+require('fetch-xhr');
+```
+
+----
+
 # window.fetch polyfill
 
 This project adheres to the [Open Code of Conduct][code-of-conduct]. By participating, you are expected to uphold this code.

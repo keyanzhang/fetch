@@ -1,13 +1,13 @@
 {
-  "name": "whatwg-fetch",
-  "description": "A window.fetch polyfill.",
+  "name": "fetch-xhr",
+  "description": "Progress-trackable fetch.",
   "version": "0.11.0",
   "main": "fetch.js",
-  "repository": "github/fetch",
+  "repository": "keyanzhang/fetch-xhr",
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/github/fetch/blob/master/LICENSE"
+      "url": "https://github.com/keyanzhang/fetch-xhr/blob/master/LICENSE"
     }
   ],
   "devDependencies": {
